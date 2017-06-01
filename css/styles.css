@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+    seconday colour:
+    bright green: #66FF00;
+    Harlequin: #3FFF00;
+    Jack's green: #08fdd8;
+    My favourite green: #00ffb4;
+    My new green: #23ff85;
+*/
+
+/*Text styling*/
+body{
+  font-size: 16px;
+  background: #252627;
+  margin: 0px;
+  border: 10px solid #00ffb4;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+p{
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+.section-title{
+    text-align: center;
+}
+.section-content{
+    text-align: center;
+}
+/* Links styling */
+h2.blog-post-title a {
+  color: white;
+  text-decoration: none;
+}
+h2.blog-post-title a:hover,
+h2.blog-post-title a:focus {
+  color: white;
+  text-decoration: none;
+}
+/*NAVBAR styling*/
+.navbar-default{
+    background: #252627;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    text-transform: none;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #00ffb4;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: #00ffb4;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: white;
+}
+/*Button is still not centred properly*/
+/*Buttons styling*/
+img.profile-picture{
+    display: block;
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+.read-about-btn{
+    background-color: #252627;
+    border: 3px solid #00ffb4;
+    border-radius: 8px;
+    color: white;
+
+    margin: auto;
+    display: block;
+    width: 170px;
+    font-family: Poppins, sans-serif;
+}
+.read-about-btn:hover, 
+.read-about-btn:active, 
+.read-about-btn:focus,
+.read-about-btn:hover:active{
+    background-color: #00ffb4;
+    border: 3px solid #00ffb4;
+    border-radius: 8px;
+    color: #252627;
+}
+/*Quote styling*/
+#quote{
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top:40px;
+}
+/*Contact form styling*/
+.input-label{
+    float: left;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.well{
+    background-color: #252627;
+    border-color: #252627;
+}
+.form-control{
+    background-color: #252627;
+    border: 2px solid white;
+}
+.form-control:focus{
+    border-color: #00ffb4;
+}
+
+/*From blog.css*/
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #252627;
+  border-top: 1px solid #252627;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+/* Blog post related */
+p.blog-post-meta{
+    color: #00ffb4;
+}
+.read-more-icon, .read-more-icon:focus, .read-more-icon:hover{
+    color: #00ffb4;
+    text-decoration: none;
+}
+.horizontal-ruler{
+    margin-top: 50px;
+}
+/* Footer */
+.footer-horizontal-ruler{
+    margin-top: 50px;
+    width: 100%;
+}
